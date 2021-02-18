@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         movieList = new ArrayList<>();
 
-        //Chercher les préferences pour le dernière recherche
+        //Chercher les préferences pour le dernière recherche...
 
         Prefs prefs = new Prefs(MainActivity.this);
         String search = prefs.getSearch();
